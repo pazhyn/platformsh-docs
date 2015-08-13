@@ -35,6 +35,9 @@ $ platform environment:backup
 > **note**
 > We advise you to backup your environment each time you increase the storage space of your services.
 
+> **note**
+> The snapshots are currently retained indefinitely. However, we don't recommend depending on them for more than 1 week. If we begin purging snapshots at any time, we'll notify customers.
+
 **Platform.sh Enterprise**
 
 Platform.sh Enterprise backups are run daily. Backups are retained for a
